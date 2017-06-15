@@ -1,0 +1,27 @@
+// ***********
+// PAGE COLORS
+// ***********
+$accent-color: #37ad9f;
+
+
+// *********************
+// FONTS AND FONT COLORS
+// *********************
+
+$main-font: 'Muli', sans-serif;
+$secondary-font: 'Work Sans', sans-serif;
+$tertiary-font: 'Roboto Slab', serif;
+$font-color: #232323;
+$secondary-font-color: #fff;
+$tertiary-font-color: lighten($font-color, 20%);
+$link-hover-color: #37ad9f;
+
+
+// ****
+//  NAV
+// ****
+$breakpoint: 800px;
+$nav-height: 85px;
+$moile-nav-height: 60px;
+$nav-background: rgba(0, 0, 0, 0.2);
+$mobile-nav-background: #262626;

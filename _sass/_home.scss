@@ -1,0 +1,209 @@
+// ***************************************
+// Styles that apply to all section titles
+// ***************************************
+
+.title {
+  h1 {
+    text-align: center;
+    font-family: $secondary-font;
+    padding: 20vh 0 0 0;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: $font-color;
+  }
+}
+
+.underline {
+  margin: -28px auto 0 auto;
+  border-top: 10px solid $accent-color;
+  padding-bottom: 10vh;
+}
+
+// *************
+// About section
+// *************
+
+.about {
+  background-image: url('../img/white_paperboard.png');
+  margin-top: -25px;
+  padding: 0 0 40vh 5vw;
+  overflow: hidden;
+  .underline {
+    width: 160px;
+  }
+  p {
+    font-family: $main-font;
+    color: $tertiary-font-color;
+    font-size: 1.1em;
+    text-indent: 50px;
+    line-height: 1.5;
+    padding: 2vh 5vw;
+  }
+  img {
+    margin-top: 100px;
+    -webkit-transform: scale(1.5); /* Saf3.1+, Chrome */
+     -moz-transform: scale(1.5); /* FF3.5+ */
+      -ms-transform: scale(1.5); /* IE9 */
+       -o-transform: scale(1.5); /* Opera 10.5+ */
+          transform: scale(1.5);
+  }
+  .stars {
+    color: $font-color;
+    padding-left: 13vw;
+    h6 {
+      font-family: $main-font;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      padding-top: 25px;
+    }
+    .five-stars {
+      padding-left: 25px;
+      padding-top: 10px;
+      i {
+        padding-left: 10px;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+//*****************************
+// Reasons to choose us section
+//*****************************
+
+.reasons {
+  background-color: #262626;
+  background-image: url('../img/texture-background.png');
+  padding: 10vh 0 0 0;
+  h1 {
+    font-size: 11em;
+    text-align: right;
+    color: $accent-color;
+  }
+  span {
+    font-size: 0.7em;
+    vertical-align: text-top;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: $secondary-font-color;
+    font-family: $secondary-font;
+    letter-spacing: 2px;
+    padding-top: 110px;
+  }
+  p {
+    padding-top: 30px;
+    font-family: $main-font;
+    color: $secondary-font-color;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  .icon-row {
+    text-align: center;
+    .coffee, .trophy, .star, .users {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .coffee, .trophy, .star {
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    i {
+      font-size: 2.6em;
+      color: $accent-color;
+      padding-top: 13vh;
+    }
+    h6 {
+      color: $accent-color;
+      font-size: 2em;
+      font-family: $main-font;
+      padding-top: 3vh;
+    }
+    h2 {
+      padding-top: 4vh;
+      font-size: 0.9em;
+      padding-bottom: 13vh;
+    }
+  }
+}
+
+.logo-grid {
+  text-align: center;
+  padding-top: 25px;
+  .row {
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  img {
+    height: 140px;
+    opacity: 0.8;
+  }
+}
+
+
+// **************************
+// JS fade in animation stuff
+// **************************
+
+.fade1 {
+  opacity: 0;
+}
+
+.fade2 {
+  opacity: 0;
+  &.in-view {
+    transition-delay: 0.2s;
+  }
+}
+
+.fade3 {
+  opacity: 0;
+  &.in-view {
+    transition-delay: 0.4s;
+  }
+}
+.fade4 {
+  opacity: 0;
+  &.in-view {
+    transition-delay: 0.6s;
+  }
+}
+.fade5 {
+  opacity: 0;
+  &.in-view {
+    transition-delay: 0.8s;
+  }
+}
+
+.in-view {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+
+
+// *******************
+// Slide in underlines
+// *******************
+
+.animation-element {
+  opacity: 0;
+  position: relative;
+  display: inline-block;
+  margin-left: 44%;
+}
+
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  width: 10px;
+}
+
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  width: 160px;
+}
