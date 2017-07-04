@@ -68,6 +68,7 @@
   }
 }
 
+
 //*****************************
 // Reasons to choose us section
 //*****************************
@@ -694,8 +695,207 @@
 
 
 // *************
-// Media queries
+// MEDIA QUERIES
 // *************
+// *************
+// MEDIA QUERIES
+// *************
+// *************
+// MEDIA QUERIES
+// *************
+
+// In order from top page sections to bottom
+// Sections in order from largest screens to smallest
+
+// About section
+// Changes margins of laptop img and makes it disappear on xs screens
+
+@media (min-width: 872px) and (max-width: 991px) {
+  .about {
+    padding: 0 0 20vh 5vw;
+    img, .stars {
+      margin-top: 30px;
+    }
+    img {
+      margin-left: 350px;
+      margin-top: -300px;
+      -webkit-transform: scale(1); /* Saf3.1+, Chrome */
+       -moz-transform: scale(1); /* FF3.5+ */
+        -ms-transform: scale(1); /* IE9 */
+         -o-transform: scale(1); /* Opera 10.5+ */
+            transform: scale(1);
+    }
+  }
+}
+
+@media (min-width: 815px) and (max-width: 871px) {
+  .about {
+    padding: 0 0 20vh 5vw;
+    img, .stars {
+      margin-top: 30px;
+    }
+    img {
+      margin-left: 300px;
+      margin-top: -300px;
+      -webkit-transform: scale(1); /* Saf3.1+, Chrome */
+       -moz-transform: scale(1); /* FF3.5+ */
+        -ms-transform: scale(1); /* IE9 */
+         -o-transform: scale(1); /* Opera 10.5+ */
+            transform: scale(1);
+    }
+  }
+}
+
+@media (min-width: 764px) and (max-width: 814px) {
+  .about {
+    padding: 0 0 20vh 5vw;
+    img, .stars {
+      margin-top: 30px;
+    }
+    img {
+      margin-left: 250px;
+      margin-top: -300px;
+      -webkit-transform: scale(1); /* Saf3.1+, Chrome */
+       -moz-transform: scale(1); /* FF3.5+ */
+        -ms-transform: scale(1); /* IE9 */
+         -o-transform: scale(1); /* Opera 10.5+ */
+            transform: scale(1);
+    }
+  }
+}
+
+@media (min-width: 612px) and (max-width: 763px) {
+  .about {
+    .stars {
+      margin-top: 20px;
+      margin-left: 100px;
+    }
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 500px) and (max-width: 611px) {
+  .about {
+    .stars {
+      margin-top: 20px;
+      margin-left: 70px;
+    }
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 425px) and (max-width: 499px) {
+  .about {
+    .stars {
+      margin-top: 20px;
+      margin-left: 45px;
+    }
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 380px) and (max-width: 424px) {
+  .about {
+    padding: 0 0 15vh 5vw;
+    .stars {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 379px) {
+  .about {
+    padding: 0 0 15vh 5vw;
+    .stars {
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    img {
+      display: none;
+    }
+  }
+}
+
+
+// Reasons to choose us section
+// Changes size of text + padding for smaller screens
+
+@media (min-width: 615px) and (max-width: 991px) {
+  .reasons {
+    .reasons-row {
+      padding-bottom: 17vh;
+    }
+    h1 {
+      text-align: center;
+    }
+    h2, p {
+      padding-right: 100px;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 614px) {
+  .reasons {
+    .reasons-row {
+      padding-bottom: 17vh;
+    }
+    h1 {
+      text-align: center;
+      font-size: 6em;
+      margin-top: 150px;
+    }
+    h2, p {
+      padding-right: 30px;
+    }
+  }
+}
+
+@media (min-width: 100px) and (max-width: 479px) {
+  .reasons {
+    .reasons-row {
+      padding-bottom: 17vh;
+    }
+    h1 {
+      text-align: center;
+      font-size: 5em;
+      margin-top: 175px;
+    }
+    h2, p {
+      padding-right: 15px;
+      font-size: 0.9em;
+    }
+  }
+}
+
+
+// Logo section
+// Changes size of logos and makes section disappear on xs screens
+
+@media (min-width: 536px) and (max-width: 830px) {
+  .logo-grid {
+    img {
+      height: 100px;
+      opacity: 0.8;
+    }
+  }
+}
+
+@media (max-width: 535px) {
+  .logo-grid {
+    display: none;
+  }
+}
+
 
 // Work grid section
 // Changes margins to keep it centered
