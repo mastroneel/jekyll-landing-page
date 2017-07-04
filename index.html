@@ -1,10 +1,135 @@
----
+<!-- ---
 layout: home
----
+--- -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jekyll Landing Page</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="node_modules/flexboxgrid/css/flexboxgrid.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="hero-slider/css/style.css">
+  <link rel="stylesheet" href="hero-slider/css/reset.css">
+  <link rel="stylesheet" href="DotNavigationStyles/css/normalize.css">
+  <link rel="stylesheet" href="DotNavigationStyles/css/component.css">
+  <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css">
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <!-- Navbar -->
+  <script type="text/javascript" src="scripts/nav.js"></script>
+
+  <!-- Hero darken on scroll down effect -->
+  <script type="text/javascript" src="scripts/hero.js"></script>
+
+  <!-- Fade in on scroll effect -->
+  <script type="text/javascript" src="scripts/fadeInOnScroll.js"></script>
+
+  <!-- Slide in on scroll effect -->
+  <script type="text/javascript" src="scripts/slideInOnScroll.js"></script>
+
+  <!-- Dot navigation -->
+  <script src="DotNavigationStyles/js/dots.js"></script>
+  <script src="DotNavigationStyles/js/modernizr.min.js"></script>
+
+  <!-- Hero slider -->
+  <script src="hero-slider/js/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="hero-slider/js/main.js"></script>
+  <script type="text/javascript" src="hero-slider/js/modernizr.js"></script>
+
+
+  <!-- Picture grid in Our Work section -->
+  <script src="node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
+  <script src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+
+</head>
+
+  <body>
+
+
 <div class="page-container">
 
 <!-- Nav link scroll point -->
 <a name="home"></a>
+
+
+
+<!-- nav = nav-mobile -->
+<!-- nav-mobile = navbar-mobile -->
+
+<!-- MOBILE NAV -->
+<section class="nav-mobile">
+  <div class="navbar-mobile">
+    <a id="nav-toggle" href="#!"><span></span></a>
+  </div>
+  <ul class="nav-mobile-list">
+    <li>
+      <a href="#home">Home</a>
+      <hr>
+    </li>
+    <li>
+      <a href="#about">About</a>
+      <hr>
+    </li>
+    <li>
+      <a href="#work">Work</a>
+      <hr>
+    </li>
+    <li>
+      <a href="#services">Services</a>
+      <hr>
+    </li>
+    <li>
+      <a href="#team">Team</a>
+      <hr>
+    </li>
+    <li>
+      <a href="#blog">Blog</a>
+      <hr>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</section>
+
+
+<!-- DESKTOP NAV -->
+<section class="nav-desktop">
+  <div class="logo">
+    <a href="#home">Logo</a>
+  </div>
+    <ul class="nav-list">
+      <li>
+        <a href="#home" onclick="clickSingleA(this)" class="single">Home</a>
+      </li>
+      <li>
+        <a href="#about" onclick="clickSingleA(this)" class="single">About</a>
+      </li>
+      <li>
+        <a href="#work" onclick="clickSingleA(this)" class="single">Work</a>
+      </li>
+      <li>
+        <a href="#services" onclick="clickSingleA(this)" class="single">Services</a>
+      </li>
+      <li>
+        <a href="#team" onclick="clickSingleA(this)" class="single">Team</a>
+      </li>
+      <li>
+        <a href="#blog" onclick="clickSingleA(this)" class="single">Blog</a>
+      </li>
+      <li>
+        <a href="#contact" onclick="clickSingleA(this)" class="single">Contact</a>
+      </li>
+    </ul>
+</section>
+
 
 <!-- Hero section -->
 <section class="cd-hero">
@@ -735,3 +860,6 @@ layout: home
 
   <!-- dot navigation -->
 	<script src="scripts/dotNavigation.js"></script>
+
+</body>
+</html>
