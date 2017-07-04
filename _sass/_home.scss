@@ -200,6 +200,7 @@
     .button {
      display: inline-block;
      padding: 15px 23px;
+     margin-top: 10px;
      margin-right: 8px;
      background-color: #fff;
      border: 1px solid #fff;
@@ -249,6 +250,7 @@
     }
   }
 }
+
 
 .chart-container {
   padding: 30vh 0 90vh 0;
@@ -462,6 +464,7 @@
     background-color: #efefef;
   }
 }
+
 
 
 
@@ -693,6 +696,625 @@
 // *************
 // Media queries
 // *************
+
+// Work grid section
+// Changes margins to keep it centered
+
+@media (min-width: 2410px) {
+  .work {
+    padding: 0 0 30vh 5%;
+  }
+}
+
+@media (min-width: 2313px) and (max-width: 2409px) {
+  .work {
+    padding: 0 0 30vh 2%;
+  }
+}
+
+@media (min-width: 2201px) and (max-width: 2312px) {
+  .work {
+    padding: 0 0 30vh 9%;
+  }
+}
+
+@media (min-width: 2071px) and (max-width: 2200px) {
+  .work {
+    padding: 0 0 30vh 7%;
+  }
+}
+
+@media (min-width: 1958px) and (max-width: 2070px) {
+  .work {
+    padding: 0 0 30vh 5%;
+  }
+}
+
+@media (min-width: 1901px) and (max-width: 1957px) {
+  .work {
+    padding: 0 0 30vh 14%;
+  }
+}
+
+@media (min-width: 1813px) and (max-width: 1900px) {
+  .work {
+    padding: 0 0 30vh 12%;
+  }
+}
+
+@media (min-width: 1717px) and (max-width: 1813px) {
+  .work {
+    padding: 0 0 30vh 10%;
+  }
+}
+
+
+@media (min-width: 1643px) and (max-width: 1716px) {
+  .work {
+    padding: 0 0 30vh 8.5%;
+  }
+}
+
+@media (min-width: 1553px) and (max-width: 1642px) {
+  .work {
+    padding: 0 0 30vh 7%;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1552px) {
+  .work {
+    padding: 0 0 30vh 5%;
+  }
+}
+
+@media (min-width: 1390px) and (max-width: 1499px) {
+  .work {
+    padding: 0 0 30vh 3%;
+  }
+}
+
+@media (min-width: 1322px) and (max-width: 1389px) {
+  .work {
+    padding: 0 0 30vh 1.5%;
+    .grid {
+      margin-left: 3.5%;
+    }
+  }
+}
+
+@media (min-width: 1286px) and (max-width: 1321px) {
+  .work {
+    padding: 0 0 30vh 1.5%;
+    .grid {
+      margin-left: 2.5%;
+    }
+  }
+}
+
+@media (min-width: 1265px) and (max-width: 1285px) {
+  .work {
+    padding: 0 0 30vh 1.5%;
+    .grid {
+      margin-left: 1.5%;
+    }
+  }
+}
+
+@media (min-width: 1225px) and (max-width: 1264px) {
+  .work {
+    padding: 0 0 30vh 1.5%;
+    .grid {
+      margin-left: 0.5%;
+    }
+  }
+}
+
+@media (min-width: 1172px) and (max-width: 1224px) {
+  .work {
+    padding: 0 0 30vh 12%;
+  }
+}
+
+@media (min-width: 1099px) and (max-width: 1171px) {
+  .work {
+    padding: 0 0 30vh 10%;
+  }
+}
+
+@media (min-width: 1054px) and (max-width: 1098px) {
+  .work {
+    padding: 0 0 30vh 8%;
+  }
+}
+
+@media (min-width: 1007px) and (max-width: 1054px) {
+  .work {
+    padding: 0 0 30vh 6%;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1007px) {
+  .work {
+    padding: 0 0 30vh 4%;
+  }
+}
+
+@media (min-width: 911px) and (max-width: 949px) {
+  .work {
+    padding: 0 0 30vh 2%;
+  }
+}
+
+@media (min-width: 876px) and (max-width: 910px) {
+  .work {
+    padding: 0 0 30vh 0;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 875px) {
+  .work {
+    padding: 0 0 30vh 0;
+    .grid {
+      margin-left: 4%;
+    }
+  }
+}
+
+@media (min-width: 820px) and (max-width: 849px) {
+  .work {
+    padding: 0 0 30vh 0;
+    .grid {
+      margin-left: 2%;
+    }
+  }
+}
+
+@media (min-width: 744px) and (max-width: 819px) {
+  .work {
+    .grid {
+      margin-left: 25%;
+    }
+  }
+}
+
+@media (min-width: 650px) and (max-width: 743px) {
+  .work {
+    .grid {
+      margin-left: 20%;
+    }
+  }
+}
+
+@media (min-width: 557px) and (max-width: 649px) {
+  .work {
+    .grid {
+      margin-left: 15%;
+    }
+  }
+}
+
+@media (min-width: 496px) and (max-width: 556px) {
+  .work {
+    .grid {
+      margin-left: 10%;
+    }
+  }
+}
+
+@media (min-width: 471px) and (max-width: 495px) {
+  .work {
+    .grid {
+      margin-left: 8%;
+    }
+  }
+}
+
+@media (min-width: 435px) and (max-width: 470px) {
+  .work {
+    .grid {
+      margin-left: 6%;
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 436px) {
+  .work {
+    .grid {
+      margin-left: 2%;
+    }
+  }
+}
+
+@media (min-width: 400px) and (max-width: 419px) {
+  .work {
+    .grid {
+      margin-left: 12%;
+      .grid-item {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (min-width: 350px) and (max-width: 399px) {
+  .work {
+    .grid {
+      margin-left: 9%;
+      .grid-item {
+        width: 300px;
+      }
+    }
+  }
+}
+
+
+
+
+
+// Changes size of bubble chart
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 30vh 0 90vh 10vw;
+    .main-circle {
+      height: 350px;
+      width: 350px;
+      h1 {
+        padding-top: 140px;
+      }
+    }
+    .circle {
+      height: 150px;
+      width: 150px;
+    }
+    .circle-1 {
+      margin-top: -450px;
+      margin-left: -20px;
+      height: 180px;
+      width: 180px;
+      h2 {
+        padding-top: 70px;
+      }
+    }
+    .circle-2 {
+      margin-top: -40px;
+      margin-left: -70px;
+      height: 110px;
+      width: 110px;
+      h2 {
+        padding-top: 50px;
+      }
+    }
+    .circle-3 {
+      height: 170px;
+      width: 170px;
+      margin-top: -25px;
+      margin-left: -160px;
+      h2 {
+        padding-top: 80px;
+      }
+    }
+    .circle-4 {
+      margin-top: -30px;
+      margin-left: -80px;
+      h2 {
+        padding-top: 70px;
+      }
+    }
+    .circle-5 {
+      margin-top: -80px;
+      margin-left: 45px;
+      width: 100px;
+      height: 100px;
+      h2 {
+        padding-top: 45px;
+      }
+    }
+    .circle-6 {
+      height: 180px;
+      width: 180px;
+      margin-top: -120px;
+      margin-left: 130px;
+    }
+    .circle-7 {
+      height: 170px;
+      width: 170px;
+      margin-top: -240px;
+      margin-left: 280px;
+      h2 {
+        padding-top: 80px;
+      }
+    }
+    .circle-8 {
+      height: 130px;
+      width: 130px;
+      margin-top: -270px;
+      margin-left: 340px;
+      h2 {
+        padding-top: 60px;
+      }
+    }
+    .circle-9 {
+      height: 200px;
+      width: 200px;
+      margin-top: -320px;
+      margin-left: 300px;
+      h2 {
+        padding-top: 100px;
+      }
+    }
+    .circle-10 {
+      height: 190px;
+      width: 190px;
+      margin-top: -300px;
+      margin-left: 150px;
+      h2 {
+        padding-top: 85px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 687px) {
+  .chart-container {
+    padding: 20vh 0 60vh 15vw;
+    .main-circle {
+      height: 250px;
+      width: 250px;
+      h1 {
+        padding-top: 95px;
+      }
+    }
+    .circle {
+      height: 150px;
+      width: 150px;
+      h2 {
+        font-size: 0.85em;
+      }
+    }
+    .circle-1 {
+      margin-top: -340px;
+      margin-left: -20px;
+      height: 130px;
+      width: 130px;
+      h2 {
+        padding-top: 60px;
+      }
+    }
+    .circle-2 {
+      margin-top: -40px;
+      margin-left: -65px;
+      height: 90px;
+      width: 90px;
+      h2 {
+        padding-top: 40px;
+      }
+    }
+    .circle-3 {
+      height: 135px;
+      width: 135px;
+      margin-top: -25px;
+      margin-left: -130px;
+      h2 {
+        padding-top: 60px;
+      }
+    }
+    .circle-4 {
+      height: 120px;
+      width: 120px;
+      margin-top: -30px;
+      margin-left: -80px;
+      h2 {
+        padding-top: 55px;
+      }
+    }
+    .circle-5 {
+      margin-top: -60px;
+      margin-left: 25px;
+      width: 70px;
+      height: 70px;
+      h2 {
+        padding-top: 30px;
+      }
+    }
+    .circle-6 {
+      height: 130px;
+      width: 130px;
+      margin-top: -80px;
+      margin-left: 85px;
+      h2 {
+        padding-top: 60px;
+      }
+    }
+    .circle-7 {
+      height: 110px;
+      width: 110px;
+      margin-top: -170px;
+      margin-left: 200px;
+      h2 {
+        padding-top: 50px;
+      }
+    }
+    .circle-8 {
+      height: 90px;
+      width: 90px;
+      margin-top: -180px;
+      margin-left: 240px;
+      h2 {
+        padding-top: 40px;
+      }
+    }
+    .circle-9 {
+      height: 155px;
+      width: 155px;
+      margin-top: -240px;
+      margin-left: 210px;
+      h2 {
+        padding-top: 70px;
+      }
+    }
+    .circle-10 {
+      height: 130px;
+      width: 130px;
+      margin-top: -200px;
+      margin-left: 100px;
+      h2 {
+        padding-top: 55px;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .chart-container {
+    padding: 20vh 0 60vh 12vw;
+  }
+}
+
+@media (max-width: 521px) {
+  .chart-container {
+    padding: 20vh 0 60vh 11vw;
+  }
+}
+
+@media (max-width: 508px) {
+  .chart-container {
+    padding: 20vh 0 40vh 20vw;
+    .main-circle {
+      height: 160px;
+      width: 160px;
+      h1 {
+        padding-top: 60px;
+        font-size: 2em;
+      }
+    }
+    .circle {
+      height: 150px;
+      width: 150px;
+      h2 {
+        font-size: 0.7em;
+      }
+    }
+    .circle-1 {
+      margin-top: -240px;
+      margin-left: -20px;
+      height: 100px;
+      width: 100px;
+      h2 {
+        padding-top: 45px;
+      }
+    }
+    .circle-2 {
+      margin-top: -30px;
+      margin-left: -60px;
+      height: 80px;
+      width: 80px;
+      h2 {
+        padding-top: 35px;
+      }
+    }
+    .circle-3 {
+      height: 110px;
+      width: 110px;
+      margin-top: -10px;
+      margin-left: -100px;
+      h2 {
+        padding-top: 50px;
+      }
+    }
+    .circle-4 {
+      height: 100px;
+      width: 100px;
+      margin-top: -50px;
+      margin-left: -20px;
+      h2 {
+        padding-top: 45px;
+      }
+    }
+    .circle-5 {
+      margin-top: -65px;
+      margin-left: 75px;
+      width: 55px;
+      height: 55px;
+      h2 {
+        padding-top: 22px;
+      }
+    }
+    .circle-6 {
+      display: none;
+      h2 {
+        padding-top: 60px;
+      }
+    }
+    .circle-7 {
+      height: 100px;
+      width: 100px;
+      margin-top: -110px;
+      margin-left: 115px;
+      h2 {
+        padding-top: 45px;
+      }
+    }
+    .circle-8 {
+      height: 80px;
+      width: 80px;
+      margin-top: -160px;
+      margin-left: 155px;
+      h2 {
+        padding-top: 35px;
+      }
+    }
+    .circle-9 {
+      height: 140px;
+      width: 140px;
+      margin-top: -200px;
+      margin-left: 75px;
+      h2 {
+        padding-top: 65px;
+      }
+    }
+    .circle-10 {
+      display: none;
+      h2 {
+        padding-top: 55px;
+      }
+    }
+  }
+}
+
+@media (max-width: 421px) {
+  .chart-container {
+    padding: 15vh 0 30vh 18vw;
+  }
+}
+
+
+// Meet us section
+// Changes row arrangement
+
+@media (min-width: 992px) {
+  .meet-us {
+    .staff-pic-small-screens {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .meet-us {
+    .staff-description {
+      padding: 20px 0 80px 0;
+    }
+    .staff-pic-small-screens {
+      display: block;
+    }
+    .staff-pic-large-screens {
+      display: none;
+    }
+  }
+}
+
 
 
 // Blog section

@@ -48,17 +48,34 @@
           width: 80px;
           border-color: rgba(255, 255, 255, 0.1);
         }
-        a, a:visited {
+        a, a.single {
           padding: 20px;
           line-height: 20px;
           background: $mobile-nav-background;
           color: #fff;
           text-decoration: none;
+          // &.single.active {
+          //   color: $accent-color !important;
+          // }
+          &.active {
+            color: $accent-color;
+          }
+          &:hover {
+            color: $accent-color;
+          }
+          &:focus {
+            outline: none;
+          }
         }
       }
     }
   }
 }
+
+.nav-desktop ul li a.hovered {
+  color: $accent-color;
+}
+
 
 #nav-toggle {
   position: absolute;
@@ -137,7 +154,7 @@
     li {
       float: left;
       position: relative;
-      a, a:visited {
+      a {
         font-family: $secondary-font;
         font-size: 0.8em;
         text-transform: uppercase;
@@ -153,6 +170,9 @@
         &:not(:only-child):after {
           padding-left: 4px;
           content: ' ▾';
+        }
+        &:focus {
+          outline: none;
         }
       }
     }

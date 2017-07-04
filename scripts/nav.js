@@ -1,3 +1,17 @@
+// // **********************
+// // Highlight current link
+// // **********************
+// //
+// function clickSingleA(a) {
+//     items = document.querySelectorAll('.single.active');
+//
+//     if(items.length) {
+//         items[0].className = 'single';
+//     }
+//
+//     a.className = 'single active';
+// }
+
 // *******************
 // Mobile nav dropdown
 // *******************
@@ -44,6 +58,11 @@ $(window).scroll(function(){
             });
             $('.nav-desktop').css('background-color', 'rgba(255, 255, 255, 1)');
             $('.nav-desktop ul li a').css('color', '#262626');
+            $('.nav-desktop ul li a').hover(function(){
+                $(this).css('color', '#37ad9f');
+                }, function(){
+                $(this).css('color', '#262626');
+            });
         }
     }
     else
@@ -66,6 +85,22 @@ $(window).scroll(function(){
             });
             $('.nav-desktop').css({backgroundColor: 'rgba(0, 0, 0, 0.2)'}, 100);
             $('.nav-desktop ul li a').css({color: '#fff'}, 100);
+            $('.nav-desktop ul li a').hover(function(){
+                $(this).css('color', '#37ad9f');
+                }, function(){
+                $(this).css('color', '#fff');
+            });
         }
     }
+});
+
+
+$(document).ready(function() {
+$(".nav-desktop ul li a.single").click(function ( e ) {
+e.preventDefault();
+$("#nav li a.active").removeClass("active"); //Remove any "active" class
+$(this).addClass("active"); //Add "active" class to selected tab
+
+// $(activeTab).show(); //Fade in the active content
+});
 });

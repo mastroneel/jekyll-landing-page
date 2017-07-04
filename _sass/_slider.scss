@@ -112,3 +112,102 @@ input#img-3:checked ~ .nav-dots label#img-dot-3
 {
 	background: $accent-color;
 }
+
+
+// *************
+// Media queries
+// *************
+
+// Changes size of slider
+
+@media (max-width: 799px) {
+  .slides {
+      width: 609px;
+      height: 320px;
+  }
+  .slide {
+      width: 609px;
+      height: 320px;
+    }
+    .nav-dots .nav-dot {
+    	top: 100px;
+    }
+    .staff-quotes {
+      padding-bottom: 240px;
+      .border {
+        display: none;
+      }
+      h6 {
+        display: none;
+      }
+    }
+}
+
+@media (max-width: 635px) {
+  .slides {
+      width: 509px;
+      height: 220px;
+  }
+  .slide {
+      width: 509px;
+      height: 220px;
+    }
+    .nav-dots .nav-dot {
+    	top: 200px;
+    }
+    .staff-quotes {
+      padding-bottom: 340px;
+      .border {
+        display: none;
+      }
+      h6 {
+        display: none;
+      }
+    }
+}
+
+@media (max-width: 535px) {
+  .slides {
+      width: 409px;
+      height: 220px;
+  }
+  .slide {
+      width: 409px;
+      height: 220px;
+    }
+    .nav-dots .nav-dot {
+    	top: 300px;
+    }
+    .staff-quotes {
+      padding-bottom: 440px;
+      .border {
+        display: none;
+      }
+      h6 {
+        display: none;
+      }
+    }
+}
+
+@media (max-width: 425px) {
+  .slides {
+      width: 309px;
+      height: 220px;
+  }
+  .slide {
+      width: 309px;
+      height: 220px;
+    }
+    .nav-dots .nav-dot {
+    	top: 400px;
+    }
+    .staff-quotes {
+      padding-bottom: 540px;
+      .border {
+        display: none;
+      }
+      h6 {
+        display: none;
+      }
+    }
+}
