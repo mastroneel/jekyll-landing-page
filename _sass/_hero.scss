@@ -72,6 +72,37 @@
 	}
 }
 
+@media (max-width: 645px) {
+	.cd-hero {
+		.cd-slider-nav {
+			nav {
+				margin-right: -70%;
+			}
+		}
+	}
+}
+
+@media (max-width: 505px) {
+	.cd-hero {
+		.cd-full-width {
+			.hero-content {
+				h2 {
+					font-size: 4em;
+				}
+				p {
+					font-size: 1.1em;
+					font-family: $tertiary-font;
+				}
+			}
+		}
+		.cd-slider-nav {
+			nav {
+				margin-right: -65%;
+			}
+		}
+	}
+}
+
 .hero-slide-1 {
 	background:
       -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),

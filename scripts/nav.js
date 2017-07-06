@@ -95,12 +95,16 @@ $(window).scroll(function(){
 });
 
 
-$(document).ready(function() {
-$(".nav-desktop ul li a.single").click(function ( e ) {
-e.preventDefault();
-$("#nav li a.active").removeClass("active"); //Remove any "active" class
-$(this).addClass("active"); //Add "active" class to selected tab
+// **********************
+// Highlight current link
+// **********************
 
-// $(activeTab).show(); //Fade in the active content
-});
-});
+function clickSingleA(a) {
+    items = document.querySelectorAll('.single.active');
+
+    if(items.length) {
+        items[0].className = 'single';
+    }
+
+    a.className = 'single active';
+}

@@ -834,12 +834,12 @@
   .reasons {
     .reasons-row {
       padding-bottom: 17vh;
+      h2, p {
+        padding-right: 100px;
+      }
     }
     h1 {
       text-align: center;
-    }
-    h2, p {
-      padding-right: 100px;
     }
   }
 }
@@ -848,14 +848,14 @@
   .reasons {
     .reasons-row {
       padding-bottom: 17vh;
+      h2, p {
+        padding-right: 30px;
+      }
     }
     h1 {
       text-align: center;
       font-size: 6em;
       margin-top: 150px;
-    }
-    h2, p {
-      padding-right: 30px;
     }
   }
 }
@@ -864,15 +864,15 @@
   .reasons {
     .reasons-row {
       padding-bottom: 17vh;
+      h2, p {
+        padding-right: 15px;
+        font-size: 0.9em;
+      }
     }
     h1 {
       text-align: center;
       font-size: 5em;
       margin-top: 175px;
-    }
-    h2, p {
-      padding-right: 15px;
-      font-size: 0.9em;
     }
   }
 }

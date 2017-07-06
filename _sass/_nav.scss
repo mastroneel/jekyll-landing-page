@@ -48,15 +48,13 @@
           width: 80px;
           border-color: rgba(255, 255, 255, 0.1);
         }
-        a, a.single {
+        a {
           padding: 20px;
           line-height: 20px;
           background: $mobile-nav-background;
           color: #fff;
           text-decoration: none;
-          // &.single.active {
-          //   color: $accent-color !important;
-          // }
+
           &.active {
             color: $accent-color;
           }
@@ -154,7 +152,7 @@
     li {
       float: left;
       position: relative;
-      a {
+      a, a.single {
         font-family: $secondary-font;
         font-size: 0.8em;
         text-transform: uppercase;
@@ -163,6 +161,9 @@
         color: $secondary-font-color;
         text-decoration: none;
         transition: 0.2s ease;
+        &.single.active {
+          color: $accent-color !important;
+        }
         &:hover {
           color: $accent-color;
           transition: 0.2s ease;
