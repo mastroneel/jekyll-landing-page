@@ -211,3 +211,18 @@ input#img-3:checked ~ .nav-dots label#img-dot-3
       }
     }
 }
+
+@media (max-width: 425px) {
+    .nav-dots .nav-dot {
+    	top: 340px;
+    }
+    .staff-quotes {
+      padding-bottom: 440px;
+      .border {
+        display: none;
+      }
+      h6 {
+        display: none;
+      }
+    }
+}
