@@ -372,7 +372,7 @@
 // Meet us section
 // ***************
 
-.meet-us {
+.meet-us, .meet-us-mobile {
   background-image: url('../img/white_paperboard.png');
   img {
     width: 100%;
@@ -826,6 +826,15 @@
   }
 }
 
+@media (max-width: 500px) {
+  .about {
+    padding: 0 0 15vh 0;
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
 
 // Reasons to choose us section
 // Changes size of text + padding for smaller screens
@@ -905,12 +914,6 @@
       height: 100px;
       opacity: 0.8;
     }
-  }
-}
-
-@media (max-width: 535px) {
-  .logo-grid {
-    display: none;
   }
 }
 
@@ -1151,6 +1154,9 @@
         width: 300px;
       }
     }
+    .services-row {
+      padding: 0 20px;
+    }
   }
 }
 
@@ -1163,7 +1169,7 @@
       }
     }
     .services-row {
-      padding: 0 30px;
+      padding: 0 20px;
     }
   }
 }
@@ -1556,6 +1562,27 @@
       padding: 30px 25px;
       margin-bottom: -20px;
     }
+  }
+}
+
+@media (min-width: 531px) {
+  .meet-us-mobile {
+    display: none;
+  }
+  .meet-us {
+    display: block;
+  }
+}
+
+@media (max-width: 530px) {
+  .meet-us-mobile {
+    display: block;
+    .photography-team {
+      padding-bottom: 50px;
+    }
+  }
+  .meet-us {
+    display: none;
   }
 }
 
