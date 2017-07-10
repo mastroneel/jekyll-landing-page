@@ -344,13 +344,18 @@ layout: home
       <div class="row button-row">
         <div class="col-xs-12">
           <div class="button-group filters-button-group">
-            <button class="button is-checked" data-filter="*">Show All</button>
+            <button id="showAll" class="button is-checked" data-filter="*">Show All</button>
             <button class="button" data-filter=".photography">Photography</button>
             <button class="button" data-filter=".logo-design">Logos</button>
             <button class="button" data-filter=".package-design">Package Design</button>
           </div>
         </div>
       </div>
+      <script>
+      $(document).ready(function(){
+          document.getElementById("showAll").click();
+      });
+      </script>
       <div class="row grid-row">
         <div class="col-xs-12">
           <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 400 }'>
