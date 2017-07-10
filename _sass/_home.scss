@@ -944,7 +944,7 @@
 // Logo section
 // Changes size of logos and makes section disappear on xs screens
 
-@media (min-width: 536px) and (max-width: 830px) {
+@media (min-width: 300px) and (max-width: 830px) {
   .logo-grid {
     img {
       height: 100px;
